@@ -1,0 +1,3 @@
+KareKare 10
+Orange 20
+Apple 12
