@@ -1,3 +1,6 @@
-KareKare 10
-Orange 20
-Apple 12
+karekare 5
+cook 20
+prep 20
+cook 10
+prep 20
+cook 20

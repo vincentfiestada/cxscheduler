@@ -1,5 +1,3 @@
 adobo 1
-soup 3
-karekare 5
-tinola 6
-giniling 3
+tinola 5
+karekare 8

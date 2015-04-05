@@ -1,0 +1,6 @@
+adobo 3
+cook 30
+prep 10
+cook 30
+prep 7
+cook 10
