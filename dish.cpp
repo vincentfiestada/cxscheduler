@@ -3,6 +3,7 @@
 #include <string>
 #define COOK 0
 #define PREP 1
+#define MAX_PRIORITY 10
 
 using namespace std;
 
@@ -51,6 +52,7 @@ public:
     {
         _name = name; // MUST match filename for recipe
         _arrivalTime = arrival; // "second" at which this dish is due to arrive
+        _waitingTime = 0; // hasn't waited yet
         _priority = priority; // priority of dish used for scheduling algorithm
         _state = NOTARRIVED; // initial state is NotArrived always
     }
@@ -68,12 +70,24 @@ public:
     {
         return _arrivalTime;
     }
+    int GetWaitingTime() // getter for waiting time
+    {
+        return _waitingTime;
+    }
+    void Wait() // incrementer for waiting time
+    {
+        _waitingTime++;
+    }
     int GetPriority() // getter for priority
     {
         return _priority;
     }
     void SetPriority(int p) // setter for priority
     {
+        // if p is less than zero, p = 0
+        // elseif p is greater than MAX_PRIORITY (10), p = MAX_PRIORITY
+        // else p is p
+        p = (p < 0) ? 0 : (p > MAX_PRIORITY) ? MAX_PRIORITY : p;
         _priority = p;
     }
     dish_state GetState() // getter for state
@@ -124,6 +138,7 @@ public:
 private:
     string _name;
     int _arrivalTime;
+    int _waitingTime; // amount of time spent in Ready queue
     int _priority;
     dish_state _state;
     vector<Task> _recipe;
