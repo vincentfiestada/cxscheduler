@@ -6,9 +6,9 @@ Time, Stove, Ready, Assistants, Remarks
 5, adobo(Cook - 27), , tinola(Prep - 10)   , tinola arrives. 
 6, adobo(Cook - 26), , tinola(Prep - 9)   , 
 7, adobo(Cook - 25), , tinola(Prep - 8)   , 
-8, adobo(Cook - 24), karekare(Cook - 20)   , tinola(Prep - 7)   , karekare arrives. 
-9, adobo(Cook - 23), karekare(Cook - 20)   , tinola(Prep - 6)   , 
-10, adobo(Cook - 22), karekare(Cook - 20)   , tinola(Prep - 5)   , 
+8, adobo(Cook - 24), , tinola(Prep - 7)   , 
+9, adobo(Cook - 23), , tinola(Prep - 6)   , 
+10, adobo(Cook - 22), karekare(Cook - 20)   , tinola(Prep - 5)   , karekare arrives. 
 11, adobo(Cook - 21), karekare(Cook - 20)   , tinola(Prep - 4)   , 
 12, adobo(Cook - 20), karekare(Cook - 20)   , tinola(Prep - 3)   , 
 13, adobo(Cook - 19), karekare(Cook - 20)   , tinola(Prep - 2)   , 

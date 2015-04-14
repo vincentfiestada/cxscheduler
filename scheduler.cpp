@@ -507,10 +507,10 @@ int main()
                 // The name is the substr before the space
                 // The number is the substr after the space
                 int at = atoi(taskDesc.substr(x + 1).c_str()); // convert string to int
-                if (at == 0)
+                if (at < 1)
                 {
                     input.close();
-                    fatal_err("Input file is corrupted. Invalid arrival _time.", 3);
+                    fatal_err("Input file is corrupted. Invalid arrival time.", 3);
                 }
                 Dish d = Dish(taskDesc.substr(0, x), at, 0);
                 // Open recipe file and add recipe steps to dish d
@@ -528,6 +528,11 @@ int main()
                         {
                             // The priority is the number after the space
                             int p = atoi(recipeLine.substr(y + 1).c_str()); // convert string to int
+                            // Check if priority is valid
+                            if (p < 1 || p > QUEUE_COUNT)
+                            {
+                                fatal_err("Recipe file '" + recipeFilename + "' is corrupted. Dish priority is missing.", 5);
+                            }
                             d.SetPriority(p);
                         }
                         else
@@ -585,5 +590,6 @@ int main()
 void fatal_err(const string &s, int code)
 {
     cout << "FATAL ERR: " << s << endl;
+    cout << "The error code is " << code << " in case you need it." << endl;
     exit(code);
 }
