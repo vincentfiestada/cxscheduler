@@ -124,18 +124,6 @@ private:
      */
     int Schedule()
     {
-        #ifdef DEBUG
-        for (int i = 0; i < QUEUE_COUNT; i++)
-        {
-            cout << "Q" << i << ": ";
-            for (int j = 0; j < _mfqs[i].size(); j++)
-            {
-                cout << _mfqs[i][j] << ", ";
-            }
-        }
-        cout << endl;
-        #endif
-
         /*** Preemption Operations ***/
         if (_onStove > -1)
         {
@@ -219,9 +207,6 @@ private:
         }
         while(_chosenOne != cycleStart);
 
-        // Next cycle should start with queue below this one
-        _chosenOne = (_chosenOne == 0) ? QUEUE_COUNT - 1 : _chosenOne - 1;
-
         // Set time quantum
         // -- Lower priority level queues => higher quantum
         //     because they are less likely to be selected.
@@ -264,6 +249,9 @@ private:
         cout << "  Q:  " << _quantum << endl;
         #endif
 
+        // Next cycle should start with queue below this one
+        //_chosenOne = (_chosenOne == 0) ? QUEUE_COUNT - 1 : _chosenOne - 1;
+
         return k;
     }
     /* Proceed() - moves the simulation one step forward in time
@@ -279,6 +267,18 @@ private:
 
         #ifdef DEBUG
         cout << _time << "  ";
+        #endif
+
+        #ifdef DEBUG
+        for (int i = 0; i < QUEUE_COUNT; i++)
+        {
+            cout << "Q" << i << ": ";
+            for (int j = 0; j < _mfqs[i].size(); j++)
+            {
+                cout << _mfqs[i][j] << ", ";
+            }
+        }
+        cout << endl;
         #endif
 
         for (int i = 0; i < _dishes.size(); i++)
