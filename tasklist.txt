@@ -1,2 +1,3 @@
-adobo 1
-adobo 3
+tinola 1
+tinola 5
+tinola 10

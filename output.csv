@@ -1,172 +1,148 @@
 Time, Stove, Ready, Assistants, Remarks
-1, -- Idle --, adobo(Cook - 30)   , , adobo arrives. Preheating stove. 
-2, adobo(Cook - 30), , , 
-3, adobo(Cook - 29), adobo(Cook - 30)   , , adobo arrives. 
-4, adobo(Cook - 28), adobo(Cook - 30)   , , 
-5, adobo(Cook - 27), adobo(Cook - 30)   , , 
-6, adobo(Cook - 26), adobo(Cook - 30)   , , 
-7, adobo(Cook - 25), adobo(Cook - 30)   , , 
-8, adobo(Cook - 24), adobo(Cook - 30)   , , 
-9, adobo(Cook - 23), adobo(Cook - 30)   , , 
-10, adobo(Cook - 22), adobo(Cook - 30)   , , 
-11, adobo(Cook - 21), adobo(Cook - 30)   , , 
-12, adobo(Cook - 20), adobo(Cook - 30)   , , 
-13, -- Idle --, adobo(Cook - 19)   adobo(Cook - 30)   , , Cleaning stove. 
-14, -- Idle --, adobo(Cook - 19)   adobo(Cook - 30)   , , Preheating stove. 
-15, adobo(Cook - 30), adobo(Cook - 19)   , , 
-16, adobo(Cook - 29), adobo(Cook - 19)   , , 
-17, adobo(Cook - 28), adobo(Cook - 19)   , , 
-18, adobo(Cook - 27), adobo(Cook - 19)   , , 
-19, adobo(Cook - 26), adobo(Cook - 19)   , , 
-20, adobo(Cook - 25), adobo(Cook - 19)   , , 
-21, adobo(Cook - 24), adobo(Cook - 19)   , , 
-22, adobo(Cook - 23), adobo(Cook - 19)   , , 
-23, adobo(Cook - 22), adobo(Cook - 19)   , , 
-24, adobo(Cook - 21), adobo(Cook - 19)   , , 
-25, adobo(Cook - 20), adobo(Cook - 19)   , , 
-26, -- Idle --, adobo(Cook - 19)   adobo(Cook - 19)   , , Cleaning stove. 
-27, -- Idle --, adobo(Cook - 19)   adobo(Cook - 19)   , , Preheating stove. 
-28, adobo(Cook - 19), adobo(Cook - 19)   , , 
-29, adobo(Cook - 18), adobo(Cook - 19)   , , 
-30, adobo(Cook - 17), adobo(Cook - 19)   , , 
-31, adobo(Cook - 16), adobo(Cook - 19)   , , 
-32, adobo(Cook - 15), adobo(Cook - 19)   , , 
-33, adobo(Cook - 14), adobo(Cook - 19)   , , 
-34, adobo(Cook - 13), adobo(Cook - 19)   , , 
-35, adobo(Cook - 12), adobo(Cook - 19)   , , 
-36, adobo(Cook - 11), adobo(Cook - 19)   , , 
-37, adobo(Cook - 10), adobo(Cook - 19)   , , 
-38, adobo(Cook - 9), adobo(Cook - 19)   , , 
-39, adobo(Cook - 8), adobo(Cook - 19)   , , 
-40, -- Idle --, adobo(Cook - 7)   adobo(Cook - 19)   , , Cleaning stove. 
-41, -- Idle --, adobo(Cook - 7)   adobo(Cook - 19)   , , Preheating stove. 
-42, adobo(Cook - 19), adobo(Cook - 7)   , , 
-43, adobo(Cook - 18), adobo(Cook - 7)   , , 
-44, adobo(Cook - 17), adobo(Cook - 7)   , , 
-45, adobo(Cook - 16), adobo(Cook - 7)   , , 
-46, adobo(Cook - 15), adobo(Cook - 7)   , , 
-47, adobo(Cook - 14), adobo(Cook - 7)   , , 
-48, adobo(Cook - 13), adobo(Cook - 7)   , , 
-49, adobo(Cook - 12), adobo(Cook - 7)   , , 
-50, adobo(Cook - 11), adobo(Cook - 7)   , , 
-51, adobo(Cook - 10), adobo(Cook - 7)   , , 
-52, adobo(Cook - 9), adobo(Cook - 7)   , , 
-53, adobo(Cook - 8), adobo(Cook - 7)   , , 
-54, -- Idle --, adobo(Cook - 7)   adobo(Cook - 7)   , , Cleaning stove. 
-55, -- Idle --, adobo(Cook - 7)   adobo(Cook - 7)   , , Preheating stove. 
-56, adobo(Cook - 7), adobo(Cook - 7)   , , 
-57, adobo(Cook - 6), adobo(Cook - 7)   , , 
-58, adobo(Cook - 5), adobo(Cook - 7)   , , 
-59, adobo(Cook - 4), adobo(Cook - 7)   , , 
-60, adobo(Cook - 3), adobo(Cook - 7)   , , 
-61, adobo(Cook - 2), adobo(Cook - 7)   , , 
-62, adobo(Cook - 1), adobo(Cook - 7)   , , 
-63, -- Idle --, adobo(Cook - 7)   , , Cleaning stove. 
-64, -- Idle --, adobo(Cook - 7)   , adobo(Prep - 10)   , Preheating stove. 
-65, adobo(Cook - 7), , adobo(Prep - 9)   , 
-66, adobo(Cook - 6), , adobo(Prep - 8)   , 
-67, adobo(Cook - 5), , adobo(Prep - 7)   , 
-68, adobo(Cook - 4), , adobo(Prep - 6)   , 
-69, adobo(Cook - 3), , adobo(Prep - 5)   , 
-70, adobo(Cook - 2), , adobo(Prep - 4)   , 
-71, adobo(Cook - 1), , adobo(Prep - 3)   , 
-72, -- Idle --, , adobo(Prep - 2)   , Cleaning stove. 
-73, -- Idle --, , adobo(Prep - 1)   adobo(Prep - 10)   , 
-74, -- Idle --, adobo(Cook - 30)   , adobo(Prep - 9)   , Preheating stove. 
-75, adobo(Cook - 30), , adobo(Prep - 8)   , 
-76, adobo(Cook - 29), , adobo(Prep - 7)   , 
-77, adobo(Cook - 28), , adobo(Prep - 6)   , 
-78, adobo(Cook - 27), , adobo(Prep - 5)   , 
-79, adobo(Cook - 26), , adobo(Prep - 4)   , 
-80, adobo(Cook - 25), , adobo(Prep - 3)   , 
-81, adobo(Cook - 24), , adobo(Prep - 2)   , 
-82, adobo(Cook - 23), , adobo(Prep - 1)   , 
-83, adobo(Cook - 22), adobo(Cook - 30)   , , 
-84, adobo(Cook - 21), adobo(Cook - 30)   , , 
-85, adobo(Cook - 20), adobo(Cook - 30)   , , 
-86, adobo(Cook - 19), adobo(Cook - 30)   , , 
-87, adobo(Cook - 18), adobo(Cook - 30)   , , 
-88, adobo(Cook - 17), adobo(Cook - 30)   , , 
-89, -- Idle --, adobo(Cook - 16)   adobo(Cook - 30)   , , Cleaning stove. 
-90, -- Idle --, adobo(Cook - 16)   adobo(Cook - 30)   , , Preheating stove. 
-91, adobo(Cook - 30), adobo(Cook - 16)   , , 
-92, adobo(Cook - 29), adobo(Cook - 16)   , , 
-93, adobo(Cook - 28), adobo(Cook - 16)   , , 
-94, adobo(Cook - 27), adobo(Cook - 16)   , , 
-95, adobo(Cook - 26), adobo(Cook - 16)   , , 
-96, adobo(Cook - 25), adobo(Cook - 16)   , , 
-97, adobo(Cook - 24), adobo(Cook - 16)   , , 
-98, adobo(Cook - 23), adobo(Cook - 16)   , , 
-99, adobo(Cook - 22), adobo(Cook - 16)   , , 
-100, adobo(Cook - 21), adobo(Cook - 16)   , , 
-101, adobo(Cook - 20), adobo(Cook - 16)   , , 
-102, adobo(Cook - 19), adobo(Cook - 16)   , , 
-103, adobo(Cook - 18), adobo(Cook - 16)   , , 
-104, adobo(Cook - 17), adobo(Cook - 16)   , , 
-105, -- Idle --, adobo(Cook - 16)   adobo(Cook - 16)   , , Cleaning stove. 
-106, -- Idle --, adobo(Cook - 16)   adobo(Cook - 16)   , , Preheating stove. 
-107, adobo(Cook - 16), adobo(Cook - 16)   , , 
-108, adobo(Cook - 15), adobo(Cook - 16)   , , 
-109, adobo(Cook - 14), adobo(Cook - 16)   , , 
-110, adobo(Cook - 13), adobo(Cook - 16)   , , 
-111, adobo(Cook - 12), adobo(Cook - 16)   , , 
-112, adobo(Cook - 11), adobo(Cook - 16)   , , 
-113, adobo(Cook - 10), adobo(Cook - 16)   , , 
-114, adobo(Cook - 9), adobo(Cook - 16)   , , 
-115, adobo(Cook - 8), adobo(Cook - 16)   , , 
-116, adobo(Cook - 7), adobo(Cook - 16)   , , 
-117, adobo(Cook - 6), adobo(Cook - 16)   , , 
-118, adobo(Cook - 5), adobo(Cook - 16)   , , 
-119, adobo(Cook - 4), adobo(Cook - 16)   , , 
-120, adobo(Cook - 3), adobo(Cook - 16)   , , 
-121, -- Idle --, adobo(Cook - 2)   adobo(Cook - 16)   , , Cleaning stove. 
-122, -- Idle --, adobo(Cook - 2)   adobo(Cook - 16)   , , Preheating stove. 
-123, adobo(Cook - 16), adobo(Cook - 2)   , , 
-124, adobo(Cook - 15), adobo(Cook - 2)   , , 
-125, adobo(Cook - 14), adobo(Cook - 2)   , , 
-126, adobo(Cook - 13), adobo(Cook - 2)   , , 
-127, adobo(Cook - 12), adobo(Cook - 2)   , , 
-128, adobo(Cook - 11), adobo(Cook - 2)   , , 
-129, adobo(Cook - 10), adobo(Cook - 2)   , , 
-130, adobo(Cook - 9), adobo(Cook - 2)   , , 
-131, adobo(Cook - 8), adobo(Cook - 2)   , , 
-132, adobo(Cook - 7), adobo(Cook - 2)   , , 
-133, adobo(Cook - 6), adobo(Cook - 2)   , , 
-134, adobo(Cook - 5), adobo(Cook - 2)   , , 
-135, adobo(Cook - 4), adobo(Cook - 2)   , , 
-136, adobo(Cook - 3), adobo(Cook - 2)   , , 
-137, -- Idle --, adobo(Cook - 2)   adobo(Cook - 2)   , , Cleaning stove. 
-138, -- Idle --, adobo(Cook - 2)   adobo(Cook - 2)   , , Preheating stove. 
-139, adobo(Cook - 2), adobo(Cook - 2)   , , 
-140, adobo(Cook - 1), adobo(Cook - 2)   , , 
-141, -- Idle --, adobo(Cook - 2)   , , Cleaning stove. 
-142, -- Idle --, adobo(Cook - 2)   , adobo(Prep - 7)   , Preheating stove. 
-143, adobo(Cook - 2), , adobo(Prep - 6)   , 
-144, adobo(Cook - 1), , adobo(Prep - 5)   , 
-145, -- Idle --, , adobo(Prep - 4)   , Cleaning stove. 
-146, -- Idle --, , adobo(Prep - 3)   adobo(Prep - 7)   , 
-147, -- Idle --, , adobo(Prep - 2)   adobo(Prep - 6)   , 
-148, -- Idle --, , adobo(Prep - 1)   adobo(Prep - 5)   , 
-149, -- Idle --, adobo(Cook - 10)   , adobo(Prep - 4)   , Preheating stove. 
-150, adobo(Cook - 10), , adobo(Prep - 3)   , 
-151, adobo(Cook - 9), , adobo(Prep - 2)   , 
-152, adobo(Cook - 8), , adobo(Prep - 1)   , 
-153, adobo(Cook - 7), adobo(Cook - 10)   , , 
-154, adobo(Cook - 6), adobo(Cook - 10)   , , 
-155, adobo(Cook - 5), adobo(Cook - 10)   , , 
-156, adobo(Cook - 4), adobo(Cook - 10)   , , 
-157, adobo(Cook - 3), adobo(Cook - 10)   , , 
-158, adobo(Cook - 2), adobo(Cook - 10)   , , 
-159, adobo(Cook - 1), adobo(Cook - 10)   , , adobo is Done. 
-160, -- Idle --, adobo(Cook - 10)   , , Cleaning stove. 
-161, -- Idle --, adobo(Cook - 10)   , , Preheating stove. 
-162, adobo(Cook - 10), , , 
-163, adobo(Cook - 9), , , 
-164, adobo(Cook - 8), , , 
-165, adobo(Cook - 7), , , 
-166, adobo(Cook - 6), , , 
-167, adobo(Cook - 5), , , 
-168, adobo(Cook - 4), , , 
-169, adobo(Cook - 3), , , 
-170, adobo(Cook - 2), , , 
-171, adobo(Cook - 1), , , adobo is Done. 
+1, -- Idle --, , tinola(Prep - 30)   , tinola arrives. 
+2, -- Idle --, , tinola(Prep - 29)   , 
+3, -- Idle --, , tinola(Prep - 28)   , 
+4, -- Idle --, , tinola(Prep - 27)   , 
+5, -- Idle --, , tinola(Prep - 26)   tinola(Prep - 30)   , tinola arrives. 
+6, -- Idle --, , tinola(Prep - 25)   tinola(Prep - 29)   , 
+7, -- Idle --, , tinola(Prep - 24)   tinola(Prep - 28)   , 
+8, -- Idle --, , tinola(Prep - 23)   tinola(Prep - 27)   , 
+9, -- Idle --, , tinola(Prep - 22)   tinola(Prep - 26)   , 
+10, -- Idle --, , tinola(Prep - 21)   tinola(Prep - 25)   tinola(Prep - 30)   , tinola arrives. 
+11, -- Idle --, , tinola(Prep - 20)   tinola(Prep - 24)   tinola(Prep - 29)   , 
+12, -- Idle --, , tinola(Prep - 19)   tinola(Prep - 23)   tinola(Prep - 28)   , 
+13, -- Idle --, , tinola(Prep - 18)   tinola(Prep - 22)   tinola(Prep - 27)   , 
+14, -- Idle --, , tinola(Prep - 17)   tinola(Prep - 21)   tinola(Prep - 26)   , 
+15, -- Idle --, , tinola(Prep - 16)   tinola(Prep - 20)   tinola(Prep - 25)   , 
+16, -- Idle --, , tinola(Prep - 15)   tinola(Prep - 19)   tinola(Prep - 24)   , 
+17, -- Idle --, , tinola(Prep - 14)   tinola(Prep - 18)   tinola(Prep - 23)   , 
+18, -- Idle --, , tinola(Prep - 13)   tinola(Prep - 17)   tinola(Prep - 22)   , 
+19, -- Idle --, , tinola(Prep - 12)   tinola(Prep - 16)   tinola(Prep - 21)   , 
+20, -- Idle --, , tinola(Prep - 11)   tinola(Prep - 15)   tinola(Prep - 20)   , 
+21, -- Idle --, , tinola(Prep - 10)   tinola(Prep - 14)   tinola(Prep - 19)   , 
+22, -- Idle --, , tinola(Prep - 9)   tinola(Prep - 13)   tinola(Prep - 18)   , 
+23, -- Idle --, , tinola(Prep - 8)   tinola(Prep - 12)   tinola(Prep - 17)   , 
+24, -- Idle --, , tinola(Prep - 7)   tinola(Prep - 11)   tinola(Prep - 16)   , 
+25, -- Idle --, , tinola(Prep - 6)   tinola(Prep - 10)   tinola(Prep - 15)   , 
+26, -- Idle --, , tinola(Prep - 5)   tinola(Prep - 9)   tinola(Prep - 14)   , 
+27, -- Idle --, , tinola(Prep - 4)   tinola(Prep - 8)   tinola(Prep - 13)   , 
+28, -- Idle --, , tinola(Prep - 3)   tinola(Prep - 7)   tinola(Prep - 12)   , 
+29, -- Idle --, , tinola(Prep - 2)   tinola(Prep - 6)   tinola(Prep - 11)   , 
+30, -- Idle --, , tinola(Prep - 1)   tinola(Prep - 5)   tinola(Prep - 10)   , 
+31, -- Idle --, tinola(Cook - 7)   , tinola(Prep - 4)   tinola(Prep - 9)   , Preheating stove. 
+32, tinola(Cook - 7), , tinola(Prep - 3)   tinola(Prep - 8)   , 
+33, tinola(Cook - 6), , tinola(Prep - 2)   tinola(Prep - 7)   , 
+34, tinola(Cook - 5), , tinola(Prep - 1)   tinola(Prep - 6)   , 
+35, tinola(Cook - 4), tinola(Cook - 7)   , tinola(Prep - 5)   , 
+36, tinola(Cook - 3), tinola(Cook - 7)   , tinola(Prep - 4)   , 
+37, -- Idle --, tinola(Cook - 2)   tinola(Cook - 7)   , tinola(Prep - 3)   , Cleaning stove. 
+38, -- Idle --, tinola(Cook - 2)   tinola(Cook - 7)   , tinola(Prep - 2)   , Preheating stove. 
+39, tinola(Cook - 7), tinola(Cook - 2)   , tinola(Prep - 1)   , 
+40, tinola(Cook - 6), tinola(Cook - 2)   tinola(Cook - 7)   , , 
+41, -- Idle --, tinola(Cook - 2)   tinola(Cook - 5)   tinola(Cook - 7)   , , Cleaning stove. 
+42, -- Idle --, tinola(Cook - 2)   tinola(Cook - 5)   tinola(Cook - 7)   , , Preheating stove. 
+43, tinola(Cook - 7), tinola(Cook - 2)   tinola(Cook - 5)   , , 
+44, tinola(Cook - 6), tinola(Cook - 2)   tinola(Cook - 5)   , , 
+45, -- Idle --, tinola(Cook - 2)   tinola(Cook - 5)   tinola(Cook - 5)   , , Cleaning stove. 
+46, -- Idle --, tinola(Cook - 2)   tinola(Cook - 5)   tinola(Cook - 5)   , , Preheating stove. 
+47, tinola(Cook - 5), tinola(Cook - 2)   tinola(Cook - 5)   , , 
+48, tinola(Cook - 4), tinola(Cook - 2)   tinola(Cook - 5)   , , 
+49, tinola(Cook - 3), tinola(Cook - 2)   tinola(Cook - 5)   , , 
+50, -- Idle --, tinola(Cook - 2)   tinola(Cook - 2)   tinola(Cook - 5)   , , Cleaning stove. 
+51, -- Idle --, tinola(Cook - 2)   tinola(Cook - 2)   tinola(Cook - 5)   , , Preheating stove. 
+52, tinola(Cook - 5), tinola(Cook - 2)   tinola(Cook - 2)   , , 
+53, tinola(Cook - 4), tinola(Cook - 2)   tinola(Cook - 2)   , , 
+54, tinola(Cook - 3), tinola(Cook - 2)   tinola(Cook - 2)   , , 
+55, -- Idle --, tinola(Cook - 2)   tinola(Cook - 2)   tinola(Cook - 2)   , , Cleaning stove. 
+56, -- Idle --, tinola(Cook - 2)   tinola(Cook - 2)   tinola(Cook - 2)   , , Preheating stove. 
+57, tinola(Cook - 2), tinola(Cook - 2)   tinola(Cook - 2)   , , 
+58, tinola(Cook - 1), tinola(Cook - 2)   tinola(Cook - 2)   , , 
+59, -- Idle --, tinola(Cook - 2)   tinola(Cook - 2)   , , Cleaning stove. 
+60, -- Idle --, tinola(Cook - 2)   tinola(Cook - 2)   , tinola(Prep - 30)   , Preheating stove. 
+61, tinola(Cook - 2), tinola(Cook - 2)   , tinola(Prep - 29)   , 
+62, tinola(Cook - 1), tinola(Cook - 2)   , tinola(Prep - 28)   , 
+63, -- Idle --, tinola(Cook - 2)   , tinola(Prep - 27)   , Cleaning stove. 
+64, -- Idle --, tinola(Cook - 2)   , tinola(Prep - 26)   tinola(Prep - 30)   , Preheating stove. 
+65, tinola(Cook - 2), , tinola(Prep - 25)   tinola(Prep - 29)   , 
+66, tinola(Cook - 1), , tinola(Prep - 24)   tinola(Prep - 28)   , 
+67, -- Idle --, , tinola(Prep - 23)   tinola(Prep - 27)   , Cleaning stove. 
+68, -- Idle --, , tinola(Prep - 22)   tinola(Prep - 26)   tinola(Prep - 30)   , 
+69, -- Idle --, , tinola(Prep - 21)   tinola(Prep - 25)   tinola(Prep - 29)   , 
+70, -- Idle --, , tinola(Prep - 20)   tinola(Prep - 24)   tinola(Prep - 28)   , 
+71, -- Idle --, , tinola(Prep - 19)   tinola(Prep - 23)   tinola(Prep - 27)   , 
+72, -- Idle --, , tinola(Prep - 18)   tinola(Prep - 22)   tinola(Prep - 26)   , 
+73, -- Idle --, , tinola(Prep - 17)   tinola(Prep - 21)   tinola(Prep - 25)   , 
+74, -- Idle --, , tinola(Prep - 16)   tinola(Prep - 20)   tinola(Prep - 24)   , 
+75, -- Idle --, , tinola(Prep - 15)   tinola(Prep - 19)   tinola(Prep - 23)   , 
+76, -- Idle --, , tinola(Prep - 14)   tinola(Prep - 18)   tinola(Prep - 22)   , 
+77, -- Idle --, , tinola(Prep - 13)   tinola(Prep - 17)   tinola(Prep - 21)   , 
+78, -- Idle --, , tinola(Prep - 12)   tinola(Prep - 16)   tinola(Prep - 20)   , 
+79, -- Idle --, , tinola(Prep - 11)   tinola(Prep - 15)   tinola(Prep - 19)   , 
+80, -- Idle --, , tinola(Prep - 10)   tinola(Prep - 14)   tinola(Prep - 18)   , 
+81, -- Idle --, , tinola(Prep - 9)   tinola(Prep - 13)   tinola(Prep - 17)   , 
+82, -- Idle --, , tinola(Prep - 8)   tinola(Prep - 12)   tinola(Prep - 16)   , 
+83, -- Idle --, , tinola(Prep - 7)   tinola(Prep - 11)   tinola(Prep - 15)   , 
+84, -- Idle --, , tinola(Prep - 6)   tinola(Prep - 10)   tinola(Prep - 14)   , 
+85, -- Idle --, , tinola(Prep - 5)   tinola(Prep - 9)   tinola(Prep - 13)   , 
+86, -- Idle --, , tinola(Prep - 4)   tinola(Prep - 8)   tinola(Prep - 12)   , 
+87, -- Idle --, , tinola(Prep - 3)   tinola(Prep - 7)   tinola(Prep - 11)   , 
+88, -- Idle --, , tinola(Prep - 2)   tinola(Prep - 6)   tinola(Prep - 10)   , 
+89, -- Idle --, , tinola(Prep - 1)   tinola(Prep - 5)   tinola(Prep - 9)   , 
+90, -- Idle --, tinola(Cook - 5)   , tinola(Prep - 4)   tinola(Prep - 8)   , Preheating stove. 
+91, tinola(Cook - 5), , tinola(Prep - 3)   tinola(Prep - 7)   , 
+92, tinola(Cook - 4), , tinola(Prep - 2)   tinola(Prep - 6)   , 
+93, tinola(Cook - 3), , tinola(Prep - 1)   tinola(Prep - 5)   , 
+94, tinola(Cook - 2), tinola(Cook - 5)   , tinola(Prep - 4)   , 
+95, -- Idle --, tinola(Cook - 1)   tinola(Cook - 5)   , tinola(Prep - 3)   , Cleaning stove. 
+96, -- Idle --, tinola(Cook - 1)   tinola(Cook - 5)   , tinola(Prep - 2)   , Preheating stove. 
+97, tinola(Cook - 5), tinola(Cook - 1)   , tinola(Prep - 1)   , 
+98, tinola(Cook - 4), tinola(Cook - 1)   tinola(Cook - 5)   , , 
+99, tinola(Cook - 3), tinola(Cook - 1)   tinola(Cook - 5)   , , 
+100, tinola(Cook - 2), tinola(Cook - 1)   tinola(Cook - 5)   , , 
+101, -- Idle --, tinola(Cook - 1)   tinola(Cook - 1)   tinola(Cook - 5)   , , Cleaning stove. 
+102, -- Idle --, tinola(Cook - 1)   tinola(Cook - 1)   tinola(Cook - 5)   , , Preheating stove. 
+103, tinola(Cook - 5), tinola(Cook - 1)   tinola(Cook - 1)   , , 
+104, tinola(Cook - 4), tinola(Cook - 1)   tinola(Cook - 1)   , , 
+105, tinola(Cook - 3), tinola(Cook - 1)   tinola(Cook - 1)   , , 
+106, tinola(Cook - 2), tinola(Cook - 1)   tinola(Cook - 1)   , , 
+107, -- Idle --, tinola(Cook - 1)   tinola(Cook - 1)   tinola(Cook - 1)   , , Cleaning stove. 
+108, -- Idle --, tinola(Cook - 1)   tinola(Cook - 1)   tinola(Cook - 1)   , , Preheating stove. 
+109, tinola(Cook - 1), tinola(Cook - 1)   tinola(Cook - 1)   , , 
+110, -- Idle --, tinola(Cook - 1)   tinola(Cook - 1)   , , Cleaning stove. 
+111, -- Idle --, tinola(Cook - 1)   tinola(Cook - 1)   , tinola(Prep - 30)   , Preheating stove. 
+112, tinola(Cook - 1), tinola(Cook - 1)   , tinola(Prep - 29)   , 
+113, -- Idle --, tinola(Cook - 1)   , tinola(Prep - 28)   , Cleaning stove. 
+114, -- Idle --, tinola(Cook - 1)   , tinola(Prep - 27)   tinola(Prep - 30)   , Preheating stove. 
+115, tinola(Cook - 1), , tinola(Prep - 26)   tinola(Prep - 29)   , 
+116, -- Idle --, , tinola(Prep - 25)   tinola(Prep - 28)   , Cleaning stove. 
+117, -- Idle --, , tinola(Prep - 24)   tinola(Prep - 27)   tinola(Prep - 30)   , 
+118, -- Idle --, , tinola(Prep - 23)   tinola(Prep - 26)   tinola(Prep - 29)   , 
+119, -- Idle --, , tinola(Prep - 22)   tinola(Prep - 25)   tinola(Prep - 28)   , 
+120, -- Idle --, , tinola(Prep - 21)   tinola(Prep - 24)   tinola(Prep - 27)   , 
+121, -- Idle --, , tinola(Prep - 20)   tinola(Prep - 23)   tinola(Prep - 26)   , 
+122, -- Idle --, , tinola(Prep - 19)   tinola(Prep - 22)   tinola(Prep - 25)   , 
+123, -- Idle --, , tinola(Prep - 18)   tinola(Prep - 21)   tinola(Prep - 24)   , 
+124, -- Idle --, , tinola(Prep - 17)   tinola(Prep - 20)   tinola(Prep - 23)   , 
+125, -- Idle --, , tinola(Prep - 16)   tinola(Prep - 19)   tinola(Prep - 22)   , 
+126, -- Idle --, , tinola(Prep - 15)   tinola(Prep - 18)   tinola(Prep - 21)   , 
+127, -- Idle --, , tinola(Prep - 14)   tinola(Prep - 17)   tinola(Prep - 20)   , 
+128, -- Idle --, , tinola(Prep - 13)   tinola(Prep - 16)   tinola(Prep - 19)   , 
+129, -- Idle --, , tinola(Prep - 12)   tinola(Prep - 15)   tinola(Prep - 18)   , 
+130, -- Idle --, , tinola(Prep - 11)   tinola(Prep - 14)   tinola(Prep - 17)   , 
+131, -- Idle --, , tinola(Prep - 10)   tinola(Prep - 13)   tinola(Prep - 16)   , 
+132, -- Idle --, , tinola(Prep - 9)   tinola(Prep - 12)   tinola(Prep - 15)   , 
+133, -- Idle --, , tinola(Prep - 8)   tinola(Prep - 11)   tinola(Prep - 14)   , 
+134, -- Idle --, , tinola(Prep - 7)   tinola(Prep - 10)   tinola(Prep - 13)   , 
+135, -- Idle --, , tinola(Prep - 6)   tinola(Prep - 9)   tinola(Prep - 12)   , 
+136, -- Idle --, , tinola(Prep - 5)   tinola(Prep - 8)   tinola(Prep - 11)   , 
+137, -- Idle --, , tinola(Prep - 4)   tinola(Prep - 7)   tinola(Prep - 10)   , 
+138, -- Idle --, , tinola(Prep - 3)   tinola(Prep - 6)   tinola(Prep - 9)   , 
+139, -- Idle --, , tinola(Prep - 2)   tinola(Prep - 5)   tinola(Prep - 8)   , 
+140, -- Idle --, , tinola(Prep - 1)   tinola(Prep - 4)   tinola(Prep - 7)   , tinola is Done. 
+141, -- Idle --, , tinola(Prep - 3)   tinola(Prep - 6)   , 
+142, -- Idle --, , tinola(Prep - 2)   tinola(Prep - 5)   , 
+143, -- Idle --, , tinola(Prep - 1)   tinola(Prep - 4)   , tinola is Done. 
+144, -- Idle --, , tinola(Prep - 3)   , 
+145, -- Idle --, , tinola(Prep - 2)   , 
+146, -- Idle --, , tinola(Prep - 1)   , tinola is Done. 
+147, -- Idle --, , , Cleaning stove.

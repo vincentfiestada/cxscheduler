@@ -12,8 +12,9 @@ using namespace std;
 #define STOVE_DIRTY 0
 #define STOVE_CLEAN 2
 #define QUEUE_COUNT 10
+#define BOOST_QUANTUM 120 // Time interval for priority boost
 
-#define DEBUG
+//#define DEBUG
 
 void fatal_err(const string &s, int code);
 
@@ -81,6 +82,8 @@ public:
             {
                 n = Proceed(n, out);
             }
+            // Write last line of output file
+            out << ++_time << ", -- Idle --, , , Cleaning stove." << endl;
             // Close file stream
             out.close();
         }
@@ -263,7 +266,6 @@ private:
         string remarks; // Stores remarks string
         _time++; // Time travel (1 second ahead)
         _quantum--; // Go closer to next quantum
-        /**** Check if a dish is arriving ****/
 
         #ifdef DEBUG
         cout << _time << "  ";
@@ -281,6 +283,7 @@ private:
         cout << endl;
         #endif
 
+        /**** Check if a dish is arriving ****/
         for (int i = 0; i < _dishes.size(); i++)
         {
             // A Dish has "arrived" if its arrival time is equal to current "time"
@@ -390,8 +393,9 @@ private:
             }
 
             Task * t = _dishes.at(i).GetNextTask();
+            Task * prevT = t;
 
-            // Do Tasks
+            /*** Do Tasks ***/
             dish_state dS = _dishes.at(i).GetState();
             if (dS == ONSTOVE || dS == PREPPING)
             {
@@ -427,12 +431,9 @@ private:
                 _dishes.at(i).SetState(READY);
                 // In Ready queue, i.e. Dish is WAITING; increment waiting time
                 _dishes.at(i).Wait();
-            }
-            else if (t->GetType() == PREP)
-            {
-                if (dS == ONSTOVE)
+                // Check if just finished from PREP stage
+                if (prevT->GetType() == PREP)
                 {
-                    _dishes.at(i).SetState(MOVING);
                     // Equivalent of IO Blocking
                     //   'Promote' Dish/Process one level higher
                     // Temporarily remove from scheduling queue to move elsewhere
@@ -459,6 +460,13 @@ private:
                     #ifdef DEBUG
                     cout << endl << "$ Promote Dish " << i << " from level " << y << " to " << higher << endl;
                     #endif
+                }
+            }
+            else if (t->GetType() == PREP)
+            {
+                if (dS == ONSTOVE)
+                {
+                    _dishes.at(i).SetState(MOVING);
                 }
                 else
                 {

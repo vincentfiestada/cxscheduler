@@ -54,6 +54,7 @@ public:
         _arrivalTime = arrival; // "second" at which this dish is due to arrive
         _waitingTime = 0; // hasn't waited yet
         _priority = priority; // priority of dish used for scheduling algorithm
+        _ipriority = _priority; // initial priority of dish
         _state = NOTARRIVED; // initial state is NotArrived always
     }
 
@@ -81,6 +82,10 @@ public:
     int GetPriority() // getter for priority
     {
         return _priority;
+    }
+    int GetInitPriority() // getter for initial priority
+    {
+        return _ipriority;
     }
     void SetPriority(int p) // setter for priority
     {
@@ -137,9 +142,10 @@ public:
 
 private:
     string _name;
-    int _arrivalTime;
+    int _arrivalTime; // time when dish arrives in queue
     int _waitingTime; // amount of time spent in Ready queue
-    int _priority;
-    dish_state _state;
-    vector<Task> _recipe;
+    int _priority; // current priority level
+    int _ipriority; // initial priority level
+    dish_state _state; // current state (COOKING, DONE, PREPPING, etc.)
+    vector<Task> _recipe; // Recipe (list of Tasks)
 };

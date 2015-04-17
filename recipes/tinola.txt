@@ -1,6 +1,6 @@
 tinola 10
-prep 10
-cook 10
-prep 10
-cook 10
+prep 30
+cook 7
+prep 30
+cook 5
 prep 30

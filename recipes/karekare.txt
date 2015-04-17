@@ -1,6 +1,6 @@
 karekare 5
-cook 20
-prep 20
-cook 10
-prep 20
-cook 20
+cook 17
+prep 26
+cook 17
+prep 25
+cook 17

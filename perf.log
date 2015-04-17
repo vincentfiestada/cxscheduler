@@ -1,5 +1,5 @@
 Scheduling Performance Log
-Total Simulated Time          : 171
-Stove Utilization Time        : 140
-Stove Idle Time               : 31
-Weighted Average Waiting Time : 139.909
+Total Simulated Time          : 147
+Stove Utilization Time        : 36
+Stove Idle Time               : 111
+Weighted Average Waiting Time : 46.6667
