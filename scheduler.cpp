@@ -1,4 +1,9 @@
 /*****************************************************************************
+CS 140 Machine Problem
+(c) 2015 Vincent Paul Fiestada
+based on the Wikipedia article on Multiple Feedback Queue and the section on
+the same topic by Arpaci & Dusseau.
+
 'scheduler.cpp' - The main program entry file for this project; contains main()
 *****************************************************************************/
 
